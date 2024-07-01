@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <DecisionTree value="null">
+    <chronicDiseases value="TRUE">yes</chronicDiseases>
+    <chronicDiseases value="FALSE">
+      <pressure value="high">yes</pressure>
+      <pressure value="normal">
+        <age value="0-1">yes</age>
+        <age value="2-5">
+          <temperature value="36.6">no</temperature>
+          <temperature value="37-38">no</temperature>
+          <temperature value="38+">yes</temperature>
+        </age>
+        <age value="6-18">no</age>
+        <age value="19-50">no</age>
+        <age value="51-60">no</age>
+        <age value="60+">yes</age>
+      </pressure>
+    </chronicDiseases>
+  </DecisionTree>
+</root>

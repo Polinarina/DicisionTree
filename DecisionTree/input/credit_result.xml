@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <DecisionTree value="null">
+    <rating value="low">no</rating>
+    <rating value="high">
+      <income value="low">no</income>
+      <income value="medium">
+        <age value="&lt;30">no</age>
+        <age value="30-50">yes</age>
+        <age value="&gt;50">no</age>
+      </income>
+      <income value="high">yes</income>
+    </rating>
+  </DecisionTree>
+</root>

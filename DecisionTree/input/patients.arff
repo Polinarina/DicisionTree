@@ -1,0 +1,42 @@
+@relation patients
+
+@attribute age {0-1, 2-5, 6-18, 19-50, 51-60, 60+}
+@attribute temperature {36.6, 37-38, 38+}
+@attribute pressure {high, normal}
+@attribute chronicDiseases {TRUE, FALSE}
+@attribute strokeSigns {TRUE, FALSE}
+@attribute hospitalize {yes, no}
+
+@data
+0-1,36.6,normal,FALSE,FALSE,yes
+51-60,36.6,high,TRUE,TRUE,yes
+2-5,38+,normal,FALSE,FALSE,yes
+60+,36.6,normal,FALSE,FALSE,yes
+19-50,38+,high,TRUE,FALSE,yes
+2-5,36.6,normal,FALSE,FALSE,no
+19-50,38+,normal,TRUE,FALSE,yes
+2-5,37-38,normal,TRUE,FALSE,yes
+51-60,37-38,normal,FALSE,FALSE,no
+19-50,38+,high,TRUE,FALSE,yes
+19-50,38+,high,FALSE,FALSE,yes
+2-5,37-38,high,FALSE,FALSE,yes
+2-5,37-38,normal,FALSE,FALSE,no
+2-5,37-38,normal,TRUE,FALSE,yes
+19-50,37-38,normal,TRUE,FALSE,yes
+2-5,37-38,normal,TRUE,FALSE,yes
+0-1,38+,normal,TRUE,FALSE,yes
+19-50,38+,high,FALSE,FALSE,yes
+51-60,38+,normal,TRUE,FALSE,yes
+2-5,37-38,normal,FALSE,FALSE,no
+19-50,37-38,normal,FALSE,FALSE,no
+19-50,38+,normal,TRUE,FALSE,yes
+19-50,38+,high,TRUE,FALSE,yes
+2-5,37-38,normal,TRUE,FALSE,yes
+6-18,37-38,normal,FALSE,FALSE,no
+6-18,36.6,high,TRUE,FALSE,yes
+19-50,38+,normal,TRUE,FALSE,yes
+60+,36.6,high,TRUE,FALSE,yes
+19-50,38+,normal,FALSE,FALSE,no
+2-5,37-38,normal,FALSE,FALSE,no
+6-18,36.6,high,FALSE,TRUE,yes
+6-18,36.6,normal,FALSE,FALSE,no

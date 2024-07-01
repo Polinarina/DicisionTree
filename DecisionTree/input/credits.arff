@@ -1,0 +1,33 @@
+@relation credits
+
+@attribute age {<30, 30-50, >50}
+@attribute income {low, medium, high}
+@attribute student {TRUE, FALSE}
+@attribute rating {low, high}
+@attribute credit {yes, no}
+
+@data
+<30,high,FALSE,high,yes
+30-50,low,FALSE,high,no
+>50,medium,FALSE,high,no
+30-50,high,FALSE,high,yes
+30-50,high,FALSE,low,no
+30-50,medium,FALSE,low,no
+<30,medium,TRUE,high,no
+<30,low,FALSE,high,no
+>50,high,FALSE,high,yes
+>50,medium,FALSE,low,no
+<30,medium,FALSE,low,no
+30-50,medium,FALSE,high,yes
+30-50,high,TRUE,high,yes
+<30,low,TRUE,high,no
+<30,high,TRUE,high,yes
+<30,high,TRUE,low,no
+>50,high,FALSE,high,yes
+>50,high,FALSE,low,no
+30-50,high,TRUE,high,yes
+30-50,medium,FALSE,high,yes
+30-50,medium,TRUE,high,yes
+30-50,medium,FALSE,low,no
+30-50,medium,FALSE,high,yes
+30-50,medium,FALSE,high,yes
